@@ -21,7 +21,6 @@ double difference(vector<double> operands) {
 	{
 		result-=operands[i];
 	}
-	
 	return result;
 }
 
