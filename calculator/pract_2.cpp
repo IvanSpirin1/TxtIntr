@@ -25,7 +25,7 @@ double difference(vector<double> operands) {
 }
 
 void printHelp() {
-   cout << "Использование: ./main.exe -o [операция] [операнды]" << endl;
+   cout << "Использование: ./pract_2.exe -o [операция] [операнды]" << endl;
    cout << "Опции:" << endl;
    cout << " -o операция задает операцию (summa или difference)" << endl;
    cout << " -h Вывести справку" << endl;
