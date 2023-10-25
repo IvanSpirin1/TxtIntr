@@ -17,7 +17,7 @@ double summa(vector<double> operands) {
 
 double difference(vector<double> operands) {
 	double result = operands[0];
-	for(int i=1; i<operands.size(); i++)
+	for(auto i=1; i<operands.size(); i++)
 	{
 		result-=operands[i];
 	}
