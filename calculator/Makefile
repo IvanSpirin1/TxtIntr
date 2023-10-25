@@ -16,7 +16,7 @@ debug: $(DB_EXEC)
 release: $(RL_EXEC)
 
 clean:
-	rm -f $(RL_EXEC) $(DB_EXEC)
+rm -f $(RL_EXEC) $(DB_EXEC)
 
 $(DB_EXEC): $(SOURCE)
 	g++ $(DB_FLAGS) $(SOURCE) $(LIBS) -o $(DB_EXEC)
